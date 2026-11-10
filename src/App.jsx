@@ -268,7 +268,7 @@ export default function App() {
                   >
 
                     <span className="date-day">
-                      SUNDAY
+                      WEDNESDAY
                     </span>
 
                     <div className="date-center">
