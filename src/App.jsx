@@ -3,8 +3,6 @@ import { motion, AnimatePresence } from "motion/react";
 import "./App.css";
 
 import firstPage from "./assets/images/first-page1.jpeg";
-import childLeft from "./assets/images/child-left.jpeg";
-import childRight from "./assets/images/child-right.jpeg";
 import confetti from "canvas-confetti";
 
 const flowerShape = confetti.shapeFromText({
@@ -330,7 +328,7 @@ export default function App() {
 
                           <motion.p variants={fadeIn}>
                             As much as we adore your little ones,
-                            our wedding will be an{" "}
+                            our <br /> wedding will be an{" "}
                             <strong>ADULT-ONLY</strong> celebration.
                           </motion.p>
 
@@ -345,7 +343,8 @@ export default function App() {
                           <motion.p
                             className="adults-only"
                             variants={textReveal}
-                          ><span>2</span> SEATS HAVE BEEN RESERVED IN YOUR HONOUR
+                          >
+                            <span>2</span> SEATS HAVE BEEN RESERVED IN YOUR HONOUR
                           
                           </motion.p>
                           
